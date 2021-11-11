@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+html {
+    height: 100%;
+}
+
+a {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+hr {
+    margin: 50px 10%;
+    border: 0;
+    border-top: 1px solid #FFFFFF;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: #001970;
+    text-align: center;
+    overflow: hidden;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#particles-js {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 150px;
+    color: #FFF;
+}
+
+.container {
+
+}
+
+.name {
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.header-divider {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-divider {
+    width: 100%;
+}
+
+.footer-content {
+    height: 600px;
+    width: 100%;
+    background: #001970;
+}
